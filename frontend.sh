@@ -16,7 +16,6 @@ npm start
 #Update Login and todo Ip address.
 cd /var/www/html/vue/frontend
 cd config
-vi index.js
 
 #Finally restart the service once to effect the changes.
 systemctl restart nginx
