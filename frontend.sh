@@ -8,8 +8,7 @@ apt install npm -y
 
 #Let's download the HTDOCS content and deploy under the Nginx path.
 cd /var/www/html
-mkdir vue & # cd /var/www/html/vue
-git clone https://github.com/zelar-soft-todoapp/frontend.git
+mkdir vue && cd /var/www/html/vue
 cd /var/www/html/vue/frontend
 npm install
 npm start
